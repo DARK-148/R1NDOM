@@ -102,7 +102,7 @@ def bhoot():
     for nmbr in range(limit):
         nmp = ''.join(random.choice(string.digits) for _ in range(8))
         user.append(nmp)
-    with ThreadPool(max_workers=30) as TANIM:
+    with ThreadPool(max_workers=40) as TANIM:
         tl = str(len(user))
         print('\x1b[38;5;155m[➤] \x1b[38;5;222mUSE FLIGHT MOD AFTER 2 MINUTES GET MORE OK IDS <>~~~');linex()
         for love in user:
